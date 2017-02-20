@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19F0D9581E59E8AB002E1972 /* IMG_88452.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19F0D9571E59E8AB002E1972 /* IMG_88452.jpg */; };
 		19F2B4891E569B4400747149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2B4881E569B4400747149 /* AppDelegate.swift */; };
 		19F2B48B1E569B4400747149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F2B48A1E569B4400747149 /* ViewController.swift */; };
 		19F2B48E1E569B4400747149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F2B48C1E569B4400747149 /* Main.storyboard */; };
 		19F2B4911E569B4400747149 /* RollingBall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F2B48F1E569B4400747149 /* RollingBall.xcdatamodeld */; };
 		19F2B4931E569B4400747149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F2B4921E569B4400747149 /* Assets.xcassets */; };
 		19F2B4961E569B4400747149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F2B4941E569B4400747149 /* LaunchScreen.storyboard */; };
+		19F2B49F1E569D9E00747149 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F2B49E1E569D9E00747149 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19F0D9571E59E8AB002E1972 /* IMG_88452.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_88452.jpg; sourceTree = "<group>"; };
 		19F2B4851E569B4400747149 /* RollingBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollingBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F2B4881E569B4400747149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19F2B48A1E569B4400747149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		19F2B4921E569B4400747149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F2B4951E569B4400747149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F2B4971E569B4400747149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F2B49E1E569D9E00747149 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		19F2B4871E569B4400747149 /* RollingBall */ = {
 			isa = PBXGroup;
 			children = (
+				19F2B49D1E569BAF00747149 /* Resources */,
 				19F2B4881E569B4400747149 /* AppDelegate.swift */,
 				19F2B48A1E569B4400747149 /* ViewController.swift */,
 				19F2B48C1E569B4400747149 /* Main.storyboard */,
@@ -65,6 +70,15 @@
 				19F2B48F1E569B4400747149 /* RollingBall.xcdatamodeld */,
 			);
 			path = RollingBall;
+			sourceTree = "<group>";
+		};
+		19F2B49D1E569BAF00747149 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19F0D9571E59E8AB002E1972 /* IMG_88452.jpg */,
+				19F2B49E1E569D9E00747149 /* ball.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F2B4961E569B4400747149 /* LaunchScreen.storyboard in Resources */,
+				19F0D9581E59E8AB002E1972 /* IMG_88452.jpg in Resources */,
 				19F2B4931E569B4400747149 /* Assets.xcassets in Resources */,
+				19F2B49F1E569D9E00747149 /* ball.png in Resources */,
 				19F2B48E1E569B4400747149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +319,7 @@
 				19F2B49C1E569B4400747149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
